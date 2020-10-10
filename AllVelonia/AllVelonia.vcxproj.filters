@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Menu Files">
+      <UniqueIdentifier>{377e9b34-99bd-425c-a4f6-d12f268fb546}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu Files\TU24">
+      <UniqueIdentifier>{d621bd9c-a482-4a2d-85b0-a25c9aa2732e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu Files\TU9">
+      <UniqueIdentifier>{b690bc38-fb18-4565-b36c-7f8b2f1e8fbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu Files\TU11">
+      <UniqueIdentifier>{b1726a1f-ea5f-482f-8c7d-1c75c8b0dd50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu Files\TU17">
+      <UniqueIdentifier>{8ef7dfdd-f349-4d53-87cb-e007ceebe60a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu Files\TU7">
+      <UniqueIdentifier>{ea307c86-32b6-4afc-b64f-0fc0c07bcbef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu Files\TU24SP">
+      <UniqueIdentifier>{f954cf53-6ab1-45a6-a2ed-62880dd9a59d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vectors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Invoker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Detour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TU24_Structs.h">
+      <Filter>Menu Files\TU24</Filter>
+    </ClInclude>
+    <ClInclude Include="TU24_Addrs.h">
+      <Filter>Menu Files\TU24</Filter>
+    </ClInclude>
+    <ClInclude Include="TU24_Draw.h">
+      <Filter>Menu Files\TU24</Filter>
+    </ClInclude>
+    <ClInclude Include="TU24_Funcs.h">
+      <Filter>Menu Files\TU24</Filter>
+    </ClInclude>
+    <ClInclude Include="TU24_Hooks.h">
+      <Filter>Menu Files\TU24</Filter>
+    </ClInclude>
+    <ClInclude Include="TU24_Menu.h">
+      <Filter>Menu Files\TU24</Filter>
+    </ClInclude>
+    <ClInclude Include="TU24_Aim.h">
+      <Filter>Menu Files\TU24</Filter>
+    </ClInclude>
+    <ClInclude Include="TU24_Esp.h">
+      <Filter>Menu Files\TU24</Filter>
+    </ClInclude>
+    <ClInclude Include="smc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TU9_Structs.h">
+      <Filter>Menu Files\TU9</Filter>
+    </ClInclude>
+    <ClInclude Include="TU9_Hooks.h">
+      <Filter>Menu Files\TU9</Filter>
+    </ClInclude>
+    <ClInclude Include="TU9_Funcs.h">
+      <Filter>Menu Files\TU9</Filter>
+    </ClInclude>
+    <ClInclude Include="TU9_Addrs.h">
+      <Filter>Menu Files\TU9</Filter>
+    </ClInclude>
+    <ClInclude Include="TU9_Draw.h">
+      <Filter>Menu Files\TU9</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TU9_Aim.h">
+      <Filter>Menu Files\TU9</Filter>
+    </ClInclude>
+    <ClInclude Include="TU9_Esp.h">
+      <Filter>Menu Files\TU9</Filter>
+    </ClInclude>
+    <ClInclude Include="TU9_Menu.h">
+      <Filter>Menu Files\TU9</Filter>
+    </ClInclude>
+    <ClInclude Include="TU11_Hooks.h">
+      <Filter>Menu Files\TU11</Filter>
+    </ClInclude>
+    <ClInclude Include="TU11_Addrs.h">
+      <Filter>Menu Files\TU11</Filter>
+    </ClInclude>
+    <ClInclude Include="TU11_Funcs.h">
+      <Filter>Menu Files\TU11</Filter>
+    </ClInclude>
+    <ClInclude Include="TU17_Hooks.h">
+      <Filter>Menu Files\TU17</Filter>
+    </ClInclude>
+    <ClInclude Include="TU17_Addrs.h">
+      <Filter>Menu Files\TU17</Filter>
+    </ClInclude>
+    <ClInclude Include="TU17_Structs.h">
+      <Filter>Menu Files\TU17</Filter>
+    </ClInclude>
+    <ClInclude Include="TU17_Menu.h">
+      <Filter>Menu Files\TU17</Filter>
+    </ClInclude>
+    <ClInclude Include="TU17_Draw.h">
+      <Filter>Menu Files\TU17</Filter>
+    </ClInclude>
+    <ClInclude Include="TU17_Funcs.h">
+      <Filter>Menu Files\TU17</Filter>
+    </ClInclude>
+    <ClInclude Include="TU17_Esp.h">
+      <Filter>Menu Files\TU17</Filter>
+    </ClInclude>
+    <ClInclude Include="TU17_Aim.h">
+      <Filter>Menu Files\TU17</Filter>
+    </ClInclude>
+    <ClInclude Include="TU11_Structs.h">
+      <Filter>Menu Files\TU11</Filter>
+    </ClInclude>
+    <ClInclude Include="TU11_Aim.h">
+      <Filter>Menu Files\TU11</Filter>
+    </ClInclude>
+    <ClInclude Include="TU11_Draw.h">
+      <Filter>Menu Files\TU11</Filter>
+    </ClInclude>
+    <ClInclude Include="TU11_Esp.h">
+      <Filter>Menu Files\TU11</Filter>
+    </ClInclude>
+    <ClInclude Include="TU11_Menu.h">
+      <Filter>Menu Files\TU11</Filter>
+    </ClInclude>
+    <ClInclude Include="TU7_Structs.h">
+      <Filter>Menu Files\TU7</Filter>
+    </ClInclude>
+    <ClInclude Include="TU7_Addrs.h">
+      <Filter>Menu Files\TU7</Filter>
+    </ClInclude>
+    <ClInclude Include="TU7_Hooks.h">
+      <Filter>Menu Files\TU7</Filter>
+    </ClInclude>
+    <ClInclude Include="TU7_Aim.h">
+      <Filter>Menu Files\TU7</Filter>
+    </ClInclude>
+    <ClInclude Include="TU7_Draw.h">
+      <Filter>Menu Files\TU7</Filter>
+    </ClInclude>
+    <ClInclude Include="TU7_Esp.h">
+      <Filter>Menu Files\TU7</Filter>
+    </ClInclude>
+    <ClInclude Include="TU7_Funcs.h">
+      <Filter>Menu Files\TU7</Filter>
+    </ClInclude>
+    <ClInclude Include="TU7_Menu.h">
+      <Filter>Menu Files\TU7</Filter>
+    </ClInclude>
+    <ClInclude Include="TU24SP_Addrs.h">
+      <Filter>Menu Files\TU24SP</Filter>
+    </ClInclude>
+    <ClInclude Include="TU24SP_Hooks.h">
+      <Filter>Menu Files\TU24SP</Filter>
+    </ClInclude>
+    <ClInclude Include="TU24SP_Structs.h">
+      <Filter>Menu Files\TU24SP</Filter>
+    </ClInclude>
+    <ClInclude Include="TU24SP_Funcs.h">
+      <Filter>Menu Files\TU24SP</Filter>
+    </ClInclude>
+    <ClInclude Include="TU24SP_Esp.h">
+      <Filter>Menu Files\TU24SP</Filter>
+    </ClInclude>
+    <ClInclude Include="TU24SP_Draw.h">
+      <Filter>Menu Files\TU24SP</Filter>
+    </ClInclude>
+    <ClInclude Include="TU24SP_Menu.h">
+      <Filter>Menu Files\TU24SP</Filter>
+    </ClInclude>
+    <ClInclude Include="TU24SP_Aim.h">
+      <Filter>Menu Files\TU24SP</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AllVelonia.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Detour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="smc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="config.xml">
+      <Filter>Source Files</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
