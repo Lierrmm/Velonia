@@ -35,4 +35,4 @@ Xbox LIVE & any Xbox images are registered trademarks of their respected owners.
 - Smokey xKoVx
 
 ### Licence
-See [licence](LICENCE)
+See [license](LICENSE)
