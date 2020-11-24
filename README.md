@@ -6,6 +6,7 @@
 
 - Visual Studio 2010 Ultimate
 - Microsoft XBOX SDK ( full installation )
+- xkelib ( This needs to be a folder in the root )
 
 **Note**: vs 2010 is only required for the SDK, if you are using a higher VS version, you will
 need to install C++ Dependencies.
